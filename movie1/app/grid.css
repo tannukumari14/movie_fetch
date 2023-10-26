@@ -1,0 +1,139 @@
+*{
+box-sizing:border-box;
+box-sizing:border-box;
+margin:0px;
+}
+body{
+	background-color:black;
+}
+
+.header_row {
+    border: solid red;
+}
+.image{
+	margin-left:40px;
+	margin-top:20px;
+	}
+	
+.movie_hub_text{
+	color:white;	
+	height: 400px;
+  	width: 400px;
+  	font-weight: bold;
+}
+
+.watch_text{
+	color:white;	
+	height: 400px;
+  	width: 400px;
+  	font-weight: bold;
+  	margin-left:750px;
+	}
+	
+.add_movie_text{
+	padding:8px;
+	margin-top:60px; 
+	font-size:14px;
+	float:right;
+	color:white;
+	font-weight: bold;
+	
+}
+
+.ro{
+	width:960;
+	margin:auto;
+	}
+
+.ro::after{
+	content:"";
+	clear:both;
+	display:block;
+	}
+	
+.Footer_background{
+	background:black;
+	}
+	
+.image-container {
+	border:1px solid white;
+    float: left;
+    width: 300px;
+    height: 248px;
+    text-align: center;   
+}
+.details-container {
+    margin-left: 300px;
+    width: 950px;
+    text-align:left;
+    border: 1px solid;
+    height: 250px;
+    color: white;
+}
+
+.like-container{
+    width: 50px;
+    height: 50px;
+    float:left;  
+}
+
+.dislike-container{
+	width:50px;
+	height:50px;
+	float:left; 
+}
+	
+.delete-container{
+	margin-left:400px;
+	width:50px;
+	height:50px;
+}
+
+.button-container{
+	color:white;
+	}
+	
+.header_container{
+	 border: solid red;
+	}
+	
+.text_for_header{
+	padding:8px;
+	margin-top:60px; 
+	font-size:14px;
+	float:right;
+	color:white;
+	font-weight: bold;
+	}
+	
+.last-header{
+	border:1px solid white;
+	height:200px;
+	width:1245px;
+	}
+.last-header-css {
+    color: white;
+    font-weight: bold;
+    margin-right: 100px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.last-container-text {
+    margin-right: 511px;
+    float: left;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    font-size: 14px;
+    border: brown;
+}
+
+.button_style {
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 20px;
+    height: 70px;
+    background-color: red;
+}
+
